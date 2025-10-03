@@ -10,7 +10,7 @@ import java.util.*;
 public class App
 {
         public static void main(String[] args) throws Exception {
-            String filePath = "employees.csv"; // keep file in project root
+            String filePath = "employees.csv";
             List<Employee> employees = loadEmployees(filePath);
 
             EmployeeAnalyzer analyzer = new EmployeeAnalyzer(employees);
@@ -30,7 +30,7 @@ public class App
             String line;
             boolean first = true;
             while ((line = reader.readLine()) != null) {
-                if (first) { first = false; continue; } // skip header
+                if (first) { first = false; continue; }
                 String[] parts = line.split(",");
                 int id = Integer.parseInt(parts[0]);
                 String firstName = parts[1];
@@ -44,5 +44,6 @@ public class App
     }
 
 }
+
 
 
