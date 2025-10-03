@@ -6,7 +6,7 @@ public class Employee
         private String firstName;
         private String lastName;
         private double salary;
-        private Integer managerId; // null if CEO
+        private Integer managerId;
 
         public Employee(int id, String firstName, String lastName, double salary, Integer managerId) {
             this.id = id;
@@ -29,3 +29,4 @@ public class Employee
 
 
 }
+
