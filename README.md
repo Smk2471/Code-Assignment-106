@@ -1,6 +1,6 @@
 # Code Assignment 106 – Employee Analyzer
 
-## 📌 Problem Statement
+## Problem Statement
 BIG COMPANY wants to analyze its organizational structure and identify improvements.
 
 The system must check:
@@ -26,7 +26,7 @@ The system must check:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
     code-assignment-106/
      ├── employees.csv
@@ -42,7 +42,7 @@ The system must check:
 
 ---
 
-## ⚙️ Assumptions
+## Assumptions
 - The CSV file is **well-formed** and always has a header line.
 - The `managerId` column is empty (`null`) for the **CEO**.
 - Salaries are positive numbers.
@@ -53,7 +53,7 @@ The system must check:
 
 ---
 
-## 🛠️ Approach
+## Approach
 1. **Parsing Input**
    - Read CSV file into `Employee` objects.
    - Store employees in a `Map<Integer, Employee>` for quick lookup.
@@ -76,7 +76,7 @@ The system must check:
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### Prerequisites
 - Java 21+
@@ -101,7 +101,7 @@ The system must check:
 
 ---
 
-## 🖥️ Example Output
+## Example Output
 With the sample CSV:
 
     === Checking Managers' Salaries ===
@@ -114,14 +114,14 @@ With the sample CSV:
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 To run unit tests:
 
     mvn test
 
 ---
 
-## 🔍 Extended Testing (Optional)
+## Extended Testing (Optional)
 If you want to test all scenarios:
 
 ### Extended employees.csv
@@ -149,6 +149,6 @@ If you want to test all scenarios:
 
 ---
 
-## 👨‍💻 Author
+## Author
 - Developed for **Code Exercise 106**
 - Built using **Java 21, Maven, JUnit**
