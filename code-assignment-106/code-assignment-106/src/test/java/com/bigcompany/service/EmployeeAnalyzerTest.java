@@ -15,7 +15,7 @@ public class EmployeeAnalyzerTest
             );
 
             EmployeeAnalyzer analyzer = new EmployeeAnalyzer(employees);
-            analyzer.checkManagerSalaries(); // prints result
+            analyzer.checkManagerSalaries();
         }
 
         @Test
@@ -30,8 +30,9 @@ public class EmployeeAnalyzerTest
             );
 
             EmployeeAnalyzer analyzer = new EmployeeAnalyzer(employees);
-            analyzer.checkReportingLines(); // prints result
+            analyzer.checkReportingLines();
         }
 }
+
 
 
